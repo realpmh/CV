@@ -1,0 +1,210 @@
+{
+  "order": [
+    "mmexport1789698947182.jpg",
+    "mmexport1789698949163.jpg",
+    "mmexport1789698951426.jpg"
+  ],
+  "environment": {
+    "python": "3.11.18",
+    "torch": "2.6.0+cu124",
+    "torchvision": "0.21.0+cu124",
+    "device": "GitHub Actions ubuntu-latest CPU"
+  },
+  "segmentation": {
+    "P1": {
+      "image_size": [
+        118,
+        128
+      ],
+      "target": "foreground salient object",
+      "threshold": 128,
+      "u2net": {
+        "pixels": 13280,
+        "area_ratio": 87.92372881355932,
+        "mask": {
+          "width": 118,
+          "height": 128,
+          "packbits_zlib_base64": "eNpjYKAL4P//v4H9Pwx8qP+PDB6j8P73o/D+2aNwf/wf1TqqdVTrqNZRraNaqaa1AVYxfYBWWIz/qFPxAQCWg3tR"
+        }
+      },
+      "u2netp": {
+        "pixels": 552,
+        "area_ratio": 3.6546610169491527,
+        "mask": {
+          "width": 118,
+          "height": 128,
+          "packbits_zlib_base64": "eNrtlDEOwjAUQwNC6tiVrYfowlYOhvjduAJbr5KJkRMwIPUC2QgSislWuxML2/dm6SVxEvmH4HL9ppO4JosdnmIRhcUoLNht8FE2Kcs7RfDS9gIOUQZQiCYZs10U9hwmjnTQmx79s12ulXarikun21q2brFWKkAs7HWlxgMPbjzKnpoK5GUEbCs70wgwvO90rNmNU2QZSv3Mk6Xum4JkiP9/sy+g7EZf"
+        }
+      },
+      "iou": 0.04156626506024096
+    },
+    "P2": {
+      "image_size": [
+        128,
+        126
+      ],
+      "target": "foreground salient object",
+      "threshold": 128,
+      "u2net": {
+        "pixels": 1455,
+        "area_ratio": 9.021577380952381,
+        "mask": {
+          "width": 128,
+          "height": 126,
+          "packbits_zlib_base64": "eNrt0LENwjAQBdBvuaCJxAaETVgpG3CbYYkBsoJHiEQJyoEcRO4fiiKaNPh3T774xwdsklbYJxXnhCDWA0KafVb1lsjOMZMfzup9HTvTp3p7dVrfNdO8fnlYtPJ8KBw/x9FdN3l+z65YnLFiWXFa7MPFueXvsee+6QKzT/Dz3wv0A96msGzwJ/f0gzgEPm+AI2pqamr+N08G9bly"
+        }
+      },
+      "u2netp": {
+        "pixels": 300,
+        "area_ratio": 1.8601190476190477,
+        "mask": {
+          "width": 128,
+          "height": 126,
+          "packbits_zlib_base64": "eNrt0LENgDAMBVFHKdyFkRiNjJZNYBNT+yIRRbT/uie7sc2UUmrVBUeHx8JP9g0fEckOV7jA9tcnXHGhY+7T/p5L8KNwyxzte67U1AuRuSPg"
+        }
+      },
+      "iou": 0.0
+    },
+    "P3": {
+      "image_size": [
+        62,
+        128
+      ],
+      "target": "foreground salient object",
+      "threshold": 128,
+      "u2net": {
+        "pixels": 0,
+        "area_ratio": 0.0,
+        "mask": {
+          "width": 62,
+          "height": 128,
+          "packbits_zlib_base64": "eNpjYBgFo2AUDFcAAAPgAAE="
+        }
+      },
+      "u2netp": {
+        "pixels": 10,
+        "area_ratio": 0.12600806451612903,
+        "mask": {
+          "width": 62,
+          "height": 128,
+          "packbits_zlib_base64": "eNpjYBgswIGqpilAKMYGCM3EMApGwXADBlBaAru0ABADAMzJATw="
+        }
+      },
+      "iou": 0.0
+    }
+  },
+  "classification": {
+    "N1": {
+      "resnet18": [
+        {
+          "index": 285,
+          "label": "Egyptian cat",
+          "score": 0.39144155383110046
+        },
+        {
+          "index": 282,
+          "label": "tiger cat",
+          "score": 0.3861004412174225
+        },
+        {
+          "index": 281,
+          "label": "tabby",
+          "score": 0.2175511121749878
+        }
+      ],
+      "mobilenet_v3_small": [
+        {
+          "index": 282,
+          "label": "tiger cat",
+          "score": 0.4930862486362457
+        },
+        {
+          "index": 285,
+          "label": "Egyptian cat",
+          "score": 0.29658666253089905
+        },
+        {
+          "index": 281,
+          "label": "tabby",
+          "score": 0.2092297524213791
+        }
+      ]
+    },
+    "N2": {
+      "resnet18": [
+        {
+          "index": 967,
+          "label": "espresso",
+          "score": 0.8516865372657776
+        },
+        {
+          "index": 960,
+          "label": "chocolate sauce",
+          "score": 0.04026780650019646
+        },
+        {
+          "index": 925,
+          "label": "consomme",
+          "score": 0.03908614441752434
+        }
+      ],
+      "mobilenet_v3_small": [
+        {
+          "index": 967,
+          "label": "espresso",
+          "score": 0.9639945030212402
+        },
+        {
+          "index": 925,
+          "label": "consomme",
+          "score": 0.015212389640510082
+        },
+        {
+          "index": 960,
+          "label": "chocolate sauce",
+          "score": 0.007791722193360329
+        }
+      ]
+    },
+    "P1": {
+      "resnet18": [
+        {
+          "index": 115,
+          "label": "sea slug",
+          "score": 0.17286163568496704
+        },
+        {
+          "index": 925,
+          "label": "consomme",
+          "score": 0.14480388164520264
+        },
+        {
+          "index": 865,
+          "label": "toyshop",
+          "score": 0.07767535746097565
+        }
+      ],
+      "mobilenet_v3_small": [
+        {
+          "index": 964,
+          "label": "potpie",
+          "score": 0.28533539175987244
+        },
+        {
+          "index": 925,
+          "label": "consomme",
+          "score": 0.20673364400863647
+        },
+        {
+          "index": 959,
+          "label": "carbonara",
+          "score": 0.11961270868778229
+        }
+      ]
+    }
+  },
+  "natural_source": {
+    "N1": "scikit-image data.chelsea (photograph of a cat)",
+    "N2": "scikit-image data.coffee (photograph of a cup of coffee)"
+  }
+}
